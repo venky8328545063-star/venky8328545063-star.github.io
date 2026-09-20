@@ -7,10 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     card.className = "product-card";
     const msg = `Hi Enduచేపలు, I want ${p.name}. Please share today's price, available quantity and shipping charge.`;
     card.innerHTML = `
-      <div class="product-image-wrap">
-        <img src="assets/${p.slug}.jpg" alt="${p.name}" loading="lazy">
-        <span class="product-number">${idx + 1}</span>
-      </div>
+      <div class="product-image-wrap product-sprite product-sprite-${idx + 1}" role="img" aria-label="${p.name}"></div>
       <div class="product-body">
         <h3>${p.name}</h3>
         <p class="telugu">${p.telugu}</p>
