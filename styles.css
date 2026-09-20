@@ -36,7 +36,7 @@ section{padding:56px 0}.section-heading{text-align:center;margin-bottom:28px}.se
 .product-card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 8px 20px rgba(65,42,18,.07);transition:.2s ease}
 .product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
 .product-image-wrap{aspect-ratio:4/3;background-color:#eee}
-.product-sprite{background-image:url("assets/catalogue.jpg");background-repeat:no-repeat;background-size:300% 300%}
+.product-sprite{background-image:url("catalogue.jpg");background-repeat:no-repeat;background-size:300% 300%}
 .product-sprite-1{background-position:0% 0%}.product-sprite-2{background-position:50% 0%}.product-sprite-3{background-position:100% 0%}
 .product-sprite-4{background-position:0% 50%}.product-sprite-5{background-position:50% 50%}.product-sprite-6{background-position:100% 50%}
 .product-sprite-7{background-position:0% 100%}.product-sprite-8{background-position:50% 100%}.product-sprite-9{background-position:100% 100%}
